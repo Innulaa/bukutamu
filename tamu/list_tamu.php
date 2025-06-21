@@ -1,6 +1,6 @@
 <?php
 include '../config/koneksi.php';
-include '../config/koneksi.php';
+include '../layouts/header.php';
 
 
 $query = "SELECT * FROM tamu ORDER BY tanggal DESC";
