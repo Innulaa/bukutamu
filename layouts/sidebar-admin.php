@@ -66,10 +66,10 @@
       </a>
     </li>
     <!-- LOGOUT -->
-    <li class="mt-4">
-      <a href="#" onclick="confirmLogout()" class="flex items-center text-lg text-red-500 font-semibold hover:text-red-700">
-        <span class="text-2xl mr-3">🚪</span> Logout
-      </a>
+   <a href="../logout.php" onclick="confirmLogout()" class="flex items-center text-lg text-red-500 font-semibold hover:text-red-700">
+  <span class="text-2xl mr-3">🚪</span> Logout
+</a>
+
     </li>
   </ul>
 </div>
@@ -105,8 +105,9 @@
   });
 
   function confirmLogout() {
-    if (confirm("Apakah Anda yakin ingin logout?")) {
-      window.location.href = "logout.php";
-    }
+  if (confirm("Apakah Anda yakin ingin logout?")) {
+    window.location.href = "logout.php";
   }
+}
+
 </script>
