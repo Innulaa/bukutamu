@@ -2,7 +2,7 @@
 
     <!-- Footer -->
     <footer class="bg-gradient-to-r from-orange-100 to-orange-300 text-orange-900 text-center py-4 text-sm shadow-inner font-medium">
-      © 2025 GuestBook Office. All Rights Reserved.
+      © 2025 eHadir. All Rights Reserved.
     </footer>
 
     <!-- Scroll script -->
